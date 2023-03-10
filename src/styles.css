@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  max-width: 1650px;
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+.bigMoney {
+  background-color: yellow;
+}
+
+.invoice {
+  background-color: #1C8657;
+}
+
+.withdrawal {
+  background-color: #6E747E;
+}

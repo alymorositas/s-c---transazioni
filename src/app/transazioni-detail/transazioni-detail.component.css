@@ -1,0 +1,12 @@
+.flex-container {
+  border: 1px solid rgba(161, 160, 160, 0.5);
+  width: 380px;
+  border-radius: 5px;
+  margin: 0 2em 2em 0;
+  padding-left: 1em;
+  display: inline-flex;
+}
+
+.flex-items {
+  flex-flow: column;
+}
