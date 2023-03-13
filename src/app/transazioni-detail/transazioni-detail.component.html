@@ -4,7 +4,7 @@
         <h2>{{transazione.business}}</h2>
         <p>{{transazione.name}}</p>
         <p>Account: {{transazione.account}}</p>
-        <p>Date: {{transazione.date | date}}</p>
+        <p>Date: {{transazione.date * 1000 | date}}</p>
         <p>Type: {{transazione.type}}</p>
         <p [ngClass]="{'bigMoney' : transazione.amount > 700}">Amount: {{transazione.amount | currency}}</p>
     </div>
